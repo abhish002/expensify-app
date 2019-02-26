@@ -1,0 +1,18 @@
+html{
+    // allows to convert rem sizes to base 10 conversion for easy comparison
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+.is-active{
+    font-weight: bold;
+}
+
+

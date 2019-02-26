@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list for provided expenses 1`] = `
+<div>
+  <h2>
+    Expenses List
+  </h2>
+  <Connect(ExpenseFilters) />
+  <ExpenseListItem
+    amount={195}
+    createdAt={0}
+    description="book"
+    id="1"
+    key="1"
+    note="book"
+  />
+  <ExpenseListItem
+    amount={109500}
+    createdAt={-345600000}
+    description="rent"
+    id="2"
+    key="2"
+    note="rent"
+  />
+  <ExpenseListItem
+    amount={4500}
+    createdAt={345600000}
+    description="gas"
+    id="3"
+    key="3"
+    note="gas"
+  />
+</div>
+`;
+
+exports[`should render paragraph tag when no expenses are passed 1`] = `
+<div>
+  <h2>
+    Expenses List
+  </h2>
+  <Connect(ExpenseFilters) />
+  <p>
+    No expenses to list.
+  </p>
+</div>
+`;
