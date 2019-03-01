@@ -22,6 +22,8 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^0.28.4",
+    "dependencies": "0.0.1",
+    "dev-dependencies": "^1.0.0",
     "express": "^4.15.4",
     "extract-text-webpack-plugin": "^3.0.2",
     "moment": "^2.18.1",
