@@ -2,9 +2,6 @@
 
 exports[`Should not set Amount for invalid input on input change event 1`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -111,9 +108,6 @@ exports[`Should not set Amount for invalid input on input change event 1`] = `
 
 exports[`Should not set Amount for invalid input on input change event 2`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -220,9 +214,6 @@ exports[`Should not set Amount for invalid input on input change event 2`] = `
 
 exports[`Should render an error message for invalid form submission 1`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -332,9 +323,6 @@ exports[`Should render an error message for invalid form submission 2`] = `
   <p>
     Please provide a Description and Amount
   </p>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -441,9 +429,6 @@ exports[`Should render an error message for invalid form submission 2`] = `
 
 exports[`Should set Amount for valid input on input change event 1`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -550,9 +535,6 @@ exports[`Should set Amount for valid input on input change event 1`] = `
 
 exports[`Should set Amount for valid input on input change event 2`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -659,9 +641,6 @@ exports[`Should set Amount for valid input on input change event 2`] = `
 
 exports[`Should set description on input change event 1`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -768,9 +747,6 @@ exports[`Should set description on input change event 1`] = `
 
 exports[`Should set description on input change event 2`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -877,9 +853,6 @@ exports[`Should set description on input change event 2`] = `
 
 exports[`Should set note on textarea change event 1`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -986,9 +959,6 @@ exports[`Should set note on textarea change event 1`] = `
 
 exports[`Should set note on textarea change event 2`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -1095,9 +1065,6 @@ exports[`Should set note on textarea change event 2`] = `
 
 exports[`should render expense form component 1`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
@@ -1204,9 +1171,6 @@ exports[`should render expense form component 1`] = `
 
 exports[`should render expense form with data 1`] = `
 <div>
-  <h1>
-    Add Expense
-  </h1>
   <form
     onSubmit={[Function]}
   >
