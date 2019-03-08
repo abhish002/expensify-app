@@ -27,6 +27,16 @@ export const removeExpense = ({ id } = {}) => ({
     id
 });
 
+// Async action to remove an expense
+export const startRemoveExpense = ({ id } = {}) => {
+    return (dispatch) => {
+        const ref = database.ref(`expenses/${id}`);
+        return ref.remove().then(() => {
+            dispatch(removeExpense({ id }))
+        });
+    }
+}
+
 // Edit Expense Action
 export const editExpense = (id, updates ) => ({
     type: 'EDIT_EXPENSE',
