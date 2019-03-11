@@ -46,7 +46,7 @@ class ExpenseFilters extends React.Component{
                     numberOfMonths={1}
                     isOutsideRange={() => false}
                     showClearDates={true}
-                    isDayHighlighted={()=>true}
+                    // isDayHighlighted={()=>true}
                 />
             </div>
         )
