@@ -6,13 +6,15 @@ import { connect } from 'react-redux';
 export const Header = ({ startLogout }) => (
     <header className="header">
     <div className="content-container">
-        <Link className="header__title" to="/dashboard">
-            <h1>Expensify</h1>
-        </Link>
-        {/*<NavLink to="/create" activeClassName="is-active">Add Expense</NavLink>*/}
-        {/* <NavLink to="/edit" activeClassName="is-active">Edit Expense</NavLink> */}
-        {/*<NavLink to="/help" activeClassName="is-active">Help</NavLink>*/}
-        <button onClick = { startLogout }>Logout</button>
+        <div className="header__content">
+            <Link className="header__title" to="/dashboard">
+                <h1>Expensify</h1>
+            </Link>
+            {/*<NavLink to="/create" activeClassName="is-active">Add Expense</NavLink>*/}
+            {/* <NavLink to="/edit" activeClassName="is-active">Edit Expense</NavLink> */}
+            {/*<NavLink to="/help" activeClassName="is-active">Help</NavLink>*/}
+            <button className="button button--link" onClick = { startLogout }>Logout</button>
+        </div>        
     </div>        
     </header>
 );

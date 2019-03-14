@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html{
     // allows to convert rem sizes to base 10 conversion for easy comparison
     font-size: 62.5%;
