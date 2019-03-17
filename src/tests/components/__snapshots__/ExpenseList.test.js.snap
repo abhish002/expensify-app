@@ -2,45 +2,105 @@
 
 exports[`should render expense list for provided expenses 1`] = `
 <div>
-  <h2>
-    Expenses List
-  </h2>
   <Connect(ExpenseFilters) />
-  <ExpenseListItem
-    amount={195}
-    createdAt={0}
-    description="book"
-    id="1"
-    key="1"
-    note="book"
-  />
-  <ExpenseListItem
-    amount={109500}
-    createdAt={-345600000}
-    description="rent"
-    id="2"
-    key="2"
-    note="rent"
-  />
-  <ExpenseListItem
-    amount={4500}
-    createdAt={345600000}
-    description="gas"
-    id="3"
-    key="3"
-    note="gas"
-  />
+  <div
+    className="content-container"
+  >
+    <div
+      className="list"
+    >
+      <div
+        className="list-header"
+      >
+        <div
+          className="show-for-mobile"
+        >
+          Expenses
+        </div>
+        <div
+          className="show-for-desktop"
+        >
+          Expense
+        </div>
+        <div
+          className="show-for-desktop"
+        >
+          Amount
+        </div>
+      </div>
+      <div
+        className="list-body"
+      >
+        <ExpenseListItem
+          amount={195}
+          createdAt={0}
+          description="book"
+          id="1"
+          key="1"
+          note="book"
+        />
+        <ExpenseListItem
+          amount={109500}
+          createdAt={-345600000}
+          description="rent"
+          id="2"
+          key="2"
+          note="rent"
+        />
+        <ExpenseListItem
+          amount={4500}
+          createdAt={345600000}
+          description="gas"
+          id="3"
+          key="3"
+          note="gas"
+        />
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`should render paragraph tag when no expenses are passed 1`] = `
 <div>
-  <h2>
-    Expenses List
-  </h2>
   <Connect(ExpenseFilters) />
-  <p>
-    No expenses to list.
-  </p>
+  <div
+    className="content-container"
+  >
+    <div
+      className="list"
+    >
+      <div
+        className="list-header"
+      >
+        <div
+          className="show-for-mobile"
+        >
+          Expenses
+        </div>
+        <div
+          className="show-for-desktop"
+        >
+          Expense
+        </div>
+        <div
+          className="show-for-desktop"
+        >
+          Amount
+        </div>
+      </div>
+      <div
+        className="list-body"
+      >
+        <div
+          className="list-item list-item__message"
+        >
+          <span>
+            No expenses to list.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
